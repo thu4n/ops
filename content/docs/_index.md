@@ -1,6 +1,6 @@
 ---
 title: Documentation
-next: first-page
+next: technologies
 ---
 
 Hope you will find some useful stuffs here!
