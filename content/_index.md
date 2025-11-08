@@ -6,7 +6,7 @@ toc: false
 ## Explore
 
 {{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
+  {{< card link="docs/technologies/aws" title="AWS" icon="aws" >}}
   {{< card link="docs/technologies/kubernetes" title="Kubernetes" icon="kubernetes" >}}
 {{< /cards >}}
 
