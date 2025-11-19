@@ -1,0 +1,15 @@
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then(function(registrations) {
+      for(let registration of registrations) {
+        // Unregister only if it's controlling this page but scope is parent
+        if (registration.scope.includes(window.location.origin)) {
+           registration.unregister();
+           console.log('Unregistered root service worker for this sub-site');
+           // Optional: Force reload once to fetch fresh content
+           // window.location.reload(); 
+        }
+      }
+    });
+  }
+</script>

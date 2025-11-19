@@ -54,7 +54,3 @@ params:
   editURL:
     enable: true
     base: "https://github.com/thu4n/ops/edit/main/content"
-
-  # Disable PWA/service worker
-  pwa:
-    enabled: false
